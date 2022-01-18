@@ -108,8 +108,8 @@ const CreateListing = () => {
                 return
             }
         } else {
-            geolocation.lat = latitude
-            geolocation.lng = longitude
+            geolocation.lat = '34.1851'
+            geolocation.lng = '-83.9252'
         }
 
         // Store image in firebase

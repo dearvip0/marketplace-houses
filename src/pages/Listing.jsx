@@ -36,10 +36,10 @@ function Listing() {
     return (
         <main>
             <Swiper slidesPerView={1} navigation={false} pagination={{ clickable: true }}>
-                {listing.imgUrls.map((url, index) => {
+                {listing.imageUrls.map((url, index) => {
                     <SwiperSlide key={index}>
                         <div styles={{
-                            background: `url(${listing.imgUrls[index]}) center no-repeat`,
+                            background: `url(${listing.imageUrls[index]}) center no-repeat`,
                             backgroundSize: 'cover',
                         }}
                         className="swiperSlideDiv"
